@@ -1,0 +1,31 @@
+footer{
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	height: 200px;
+	background: $primary-color;
+	color: #fff;
+	transition: all 0.4s ease;
+
+	ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-around;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: auto;
+			display: inline;
+
+
+			a {
+				text-decoration: none;
+				padding: 15px 60px;
+				border: 1px solid
+			}
+		}
+	}
+}

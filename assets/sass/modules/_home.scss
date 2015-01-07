@@ -1,0 +1,19 @@
+.imgholder {
+	width:100%;
+}
+
+#image1 {
+	@include background(url("/assets/img/coffee.jpg"), center no-repeat);
+}
+
+#image2 {
+	@include background(url("/assets/img/outdoor.jpg"), center no-repeat);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#image3 {
+	@include background(url("/assets/img/indoor.jpg"), center no-repeat);
+}

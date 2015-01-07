@@ -1,0 +1,50 @@
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	text-align: center;
+	height: 90px;
+	background: $primary-color;
+	color: #fff;
+	transition: all 0.4s ease;
+
+	ul {
+		list-style-type: none;
+		display: flex;
+		justify-content: space-around;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+
+		li {
+			margin: auto;
+			display: inline;
+
+
+			a {
+				text-decoration: none;
+				padding: 15px 80px;
+				border: 1px solid
+			}
+		}
+	}
+}
+
+header.sticky {
+	background: rgba(18, 23, 25, 0);
+	transition: all 0.4s ease;
+
+	ul {
+
+
+		li {
+
+			a {
+				padding: 10px 60px;
+				transition: all 0.4s ease;
+				background: $primary-color;
+			
+			}
+		}
+	}
+}
