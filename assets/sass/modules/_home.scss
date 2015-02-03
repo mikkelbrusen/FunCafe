@@ -1,5 +1,6 @@
 .imgholder {
 	width:100%;
+	position: relative;
 }
 
 #image1 {
@@ -16,4 +17,26 @@
 
 #image3 {
 	@include background(url("/assets/img/indoor.jpg"), center no-repeat);
+}
+
+.slider {
+	height:125px;
+	width:250px;
+	position:absolute;
+	left: calc(50% - 125px);
+	background: rgba(218, 218, 218, 0.21);
+}
+
+.arrow-down {
+	border-radius: 250px 250px 0 0;
+	-moz-border-radius: 250px 250px 0 0;
+	-webkit-border-radius: 250px 250px 0 0;
+	bottom: 0px;
+}
+
+.arrow-up {
+	border-radius: 0 0 250px 250px;
+	-moz-border-radius: 0 0 250px 250px;
+	-webkit-border-radius: 0 0 250px 250px;
+	top:0px;
 }
